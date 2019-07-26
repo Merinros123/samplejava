@@ -12,5 +12,6 @@ public class AppTest {
 	public void testApp() {
 		App appObject = new App();
 		Assert.assertEquals(appObject.reverseString("Test!"), "!tseT");
+		System.out.println("sample project");
 	}
 }
